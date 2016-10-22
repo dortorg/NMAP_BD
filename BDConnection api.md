@@ -3,6 +3,8 @@ BDConnection api
 ------------
 
     vector<string> arpScan();
+    bool recv(char* buffer,);
+    bool send(Host host, char* buffer);
     bool hostExist(string ip);
     string iosDetection(string ip);
     Host scanHost(string ip);
